@@ -25,6 +25,7 @@ This section outlines the steps required to operate the Geometry Calculator Web 
 3. Set up a virtual environment (recommended):
 
   python -m venv .venv
+  
   source .venv/bin/activate  # On Windows use .venv\Scripts\activate
 
 4. Install dependencies:
@@ -38,5 +39,7 @@ This section outlines the steps required to operate the Geometry Calculator Web 
 7. Open your browser and go to http://127.0.0.1:5000 to access the Geometry Calculator.
    
 # Using the App
+
 Cylinder: Enter radius and height to calculate the volume.
+
 Sphere: Enter radius to calculate the volume.
