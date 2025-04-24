@@ -24,17 +24,17 @@ This section outlines the steps required to operate the Geometry Calculator Web 
 
 3. Set up a virtual environment (recommended):
 
-  python -m venv .venv
+  python3 -m venv .venv
   
-  source .venv/bin/activate  # On Windows use .venv\Scripts\activate
+  . .venv/bin/activate
 
 4. Install dependencies:
 
-  pip install -r requirements.txt
+  pip install Flask
 
 5. Run the Flask app:
 
-  python app.py
+  flask --app GeometryCalcWeb.py run
 
 7. Open your browser and go to http://127.0.0.1:5000 to access the Geometry Calculator.
    
